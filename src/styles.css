@@ -1,0 +1,76 @@
+body {
+  background: #f9f7fd;
+  padding: 40px 20px;
+}
+.application {
+  border: solid #f9f7fd 1px;
+  border-radius: 10pt;
+  background-color: white;
+  padding: 40px;
+  margin: 0 auto;
+  width: 600px;
+  max-width: 750px;
+  box-shadow: 0 4px 12px #47474733;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+.tool {
+  background-color: #f9f7fd;
+  padding: 12pt 10pt;
+  width: 75%;
+  border: none;
+  border-radius: 6px;
+}
+.search-button {
+  color: white;
+  font-weight: bold;
+  background-color: #885df1;
+  border: solid 1px #885df1;
+  border-radius: 6px;
+  padding: 12pt 32pt;
+  margin-left: 10pt;
+}
+hr {
+  background-color: #f9f7fd;
+  border: none;
+  margin-top: 20px;
+  height: 1px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+.temp {
+  position: relative;
+  font-size: 68px;
+  font-weight: bold;
+  display: inline-block;
+}
+.celcius {
+  display: inline-flex;
+  position: absolute;
+  top: 3px;
+  right: -35px;
+  font-size: 36px;
+  font-weight: normal;
+}
+p {
+  color: #a8a6b4;
+  line-height: 1.5;
+}
+.wind-humid {
+  color: #f65281;
+}
+footer {
+  font-size: 12px;
+  padding: 15pt 0 0 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+a {
+  color: #885df1;
+}
